@@ -8,6 +8,8 @@ export const document = (() => {
         querySelectorAll:() => {},
         getElementById:() => {},
         getElementsByClassName:() => {},
+        removeEventListener:() => {},
+        addEventListener:() => {},
         body: {
             clientWidth: 0,
             clientHeight: 0,
