@@ -136,28 +136,29 @@ function hideCredits(){
     credits = false;
 }
 
+if (window){
+    window.setup = () => {
+        createCanvas( window.innerWidth
+    || document.documentElement.clientWidth
+    || document.body.clientWidth, window.innerHeight
+    || document.documentElement.clientHeight
+    || document.body.clientHeight);
+    }
+    let pos = []
 
-window.setup = () => {
-    createCanvas( window.innerWidth
-|| document.documentElement.clientWidth
-|| document.body.clientWidth, window.innerHeight
-|| document.documentElement.clientHeight
-|| document.body.clientHeight);
-}
-let pos = []
-
-window.draw = () => {
-    clear()
-    pos.push({
-        x: mouseX,
-        y: mouseY,
-    })
-    
-    pos.forEach((item, index) => {
-        if (index > 0)
-        line(pos[index - 1].x, pos[index - 1].y, pos[index].x, pos[index].y);
-    })
-    
+    window.draw = () => {
+        clear()
+        pos.push({
+            x: mouseX,
+            y: mouseY,
+        })
+        
+        pos.forEach((item, index) => {
+            if (index > 0)
+            line(pos[index - 1].x, pos[index - 1].y, pos[index].x, pos[index].y);
+        })
+        
+    }
 }
 
 const clearPoints = () => {
