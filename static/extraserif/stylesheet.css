@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'EXTRA Serif';
+    src: url('EXTRASerif-Regular.woff2') format('woff2'),
+        url('EXTRASerif-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

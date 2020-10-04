@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Restora';
+    src: url('RestoraExtraLight.eot');
+    src: url('RestoraExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('RestoraExtraLight.woff2') format('woff2'),
+        url('RestoraExtraLight.woff') format('woff'),
+        url('RestoraExtraLight.ttf') format('truetype'),
+        url('RestoraExtraLight.svg#RestoraExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Restora';
+    src: url('RestoraThinItalic.eot');
+    src: url('RestoraThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('RestoraThinItalic.woff2') format('woff2'),
+        url('RestoraThinItalic.woff') format('woff'),
+        url('RestoraThinItalic.ttf') format('truetype'),
+        url('RestoraThinItalic.svg#RestoraThinItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+}
+
