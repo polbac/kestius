@@ -130,7 +130,6 @@ function clickNotification() {
 function onScroll() {
     scrollPos = getScrollPos()
     bodies = document.querySelectorAll("*[z]")
-    console.log('scrollPos', scrollPos)
     render()
     
 }

@@ -1,5 +1,6 @@
 <script>
 import { onDestroy, onMount } from 'svelte'
+import { document } from '../util/document'
 
 let credits = false
 let items = []
@@ -20,6 +21,26 @@ onDestroy(() => {
 })
 
 onMount(() => {
+    window.setup = () => {
+        createCanvas( window.innerWidth
+    || document.documentElement.clientWidth
+    || document.body.clientWidth, window.innerHeight
+    || document.documentElement.clientHeight
+    || document.body.clientHeight);
+}
+    window.draw = () => {
+        clear()
+        pos.push({
+            x: mouseX,
+            y: mouseY,
+        })
+        
+        pos.forEach((item, index) => {
+            if (index > 0)
+            line(pos[index - 1].x, pos[index - 1].y, pos[index].x, pos[index].y);
+        })
+        
+    }
     isInHome = true
     interval = setInterval(clearPoints, 100)
     type = "onwheel" in document ? "wheel" : "mousewheel"
@@ -136,30 +157,9 @@ function hideCredits(){
     credits = false;
 }
 
-if (window){
-    window.setup = () => {
-        createCanvas( window.innerWidth
-    || document.documentElement.clientWidth
-    || document.body.clientWidth, window.innerHeight
-    || document.documentElement.clientHeight
-    || document.body.clientHeight);
-    }
-    let pos = []
 
-    window.draw = () => {
-        clear()
-        pos.push({
-            x: mouseX,
-            y: mouseY,
-        })
-        
-        pos.forEach((item, index) => {
-            if (index > 0)
-            line(pos[index - 1].x, pos[index - 1].y, pos[index].x, pos[index].y);
-        })
-        
-    }
-}
+let pos = []
+
 
 const clearPoints = () => {
     if (pos.length > 2) {

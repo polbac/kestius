@@ -14,6 +14,8 @@ let words = ["","","","","","","","","","","","",]
 let audio2Duration
 let timeout
 
+
+
 onMount(() => {
     document.title = "I D O L O"
     video = document.getElementById("video")
