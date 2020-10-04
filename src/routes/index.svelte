@@ -1,6 +1,6 @@
 <script>
 import { onDestroy, onMount } from 'svelte'
-import { document } from '../util/document'
+import { universalDoc as d } from '../util/document'
 
 let credits = false
 let items = []
@@ -16,17 +16,17 @@ let interval
 
 onDestroy(() => {
     clearInterval(interval)
-    document.removeEventListener(type, () => {}, true)
+    d.removeEventListener(type, () => {}, true)
     isInHome = false
 })
 
 onMount(() => {
     window.setup = () => {
         createCanvas( window.innerWidth
-    || document.documentElement.clientWidth
-    || document.body.clientWidth, window.innerHeight
-    || document.documentElement.clientHeight
-    || document.body.clientHeight);
+    || d.documentElement.clientWidth
+    || d.body.clientWidth, window.innerHeight
+    || d.documentElement.clientHeight
+    || d.body.clientHeight);
 }
     window.draw = () => {
         clear()
@@ -44,8 +44,8 @@ onMount(() => {
     isInHome = true
     interval = setInterval(clearPoints, 100)
     type = "onwheel" in document ? "wheel" : "mousewheel"
-    document.title = "K E S T I U S"
-    items = document.getElementsByClassName('item')
+    d.title = "K E S T I U S"
+    items = d.getElementsByClassName('item')
     let i = 0
     for (let item of items) {
         itemsVector[i] = { x: 0 }
@@ -54,8 +54,8 @@ onMount(() => {
     itemsVector = itemsVector.map((item, x) => ({ x: x * WIDTH, i: x, y: -100 + (Math.random() * 200) }))
 
     render();
-    const title = document.getElementById('title')
-    document.querySelectorAll('.item').forEach(element => {
+    const title = d.getElementById('title')
+    d.querySelectorAll('.item').forEach(element => {
         element.onmouseenter = () => {
             title.innerText = element.getAttribute('title')
             title.style.display = "block"
@@ -66,7 +66,7 @@ onMount(() => {
         }
     })
 
-    document.addEventListener(type, e => {
+    d.addEventListener(type, e => {
         if (!isInHome) return
 
         e.preventDefault();
@@ -104,8 +104,8 @@ onMount(() => {
 
 function getWindowWidth() {
     return window.innerWidth
-    || document.documentElement.clientWidth
-    || document.body.clientWidth;
+    || d.documentElement.clientWidth
+    || d.body.clientWidth;
 }
 
 function getLeftVector() {

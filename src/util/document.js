@@ -1,5 +1,6 @@
 import { isServer } from './universal'
-export const document = (() => {
+
+export const universalDoc = (() => {
     if (!isServer()) {
         return document
     }
