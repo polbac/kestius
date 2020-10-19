@@ -17,6 +17,7 @@
         position: relative;
         z-index: 9999;
         line-height: 50px;
+        text-align: justify;
     }
 
     .cura-container{
@@ -328,7 +329,7 @@ function render() {
 }
 
 onMount(() => {
-    document.title = "L U C I F E R"
+    document.title = "P E P E N A R P A S T O"
     onScroll()
     audioPlayer = document.getElementById('la-mona-audio')
     if(!isServer()) window.addEventListener('scroll', onScroll)
@@ -417,19 +418,88 @@ setInterval(() => mouseEnter = !mouseEnter, 3000)
   
     </h2>
     
-    <p>Esta maldita costilla…se dijo para sí. Me cancela movimientos escénicos. Pensó en Susana Giménez, y enseguida en los colchones agujereados, en los vaivenes inflacionarios del diezmo… la plata que no entra… es que ya encontró otros escondites en el mundo. Empresario. Si. No. Bastante. </p>
+    <p>Esta maldita costilla…se dijo para sí. Me cancela
+movimientos escénicos. Pensó en Susana Giménez, y
+enseguida en los colchones agujereados, en los vaivenes
+inflacionarios del diezmo… la plata que no entra… es que
+ya encontró otros escondites en el mundo. Empresario.
+Si. No. Bastante.</p>
 
-    <p>Esos días de bolsas rebalsadas, los dedos marcados por el peso de las bolsas de tanta promoción en la segunda unidad; dibujada apenas tenue esa película acuosa en los ojos, pensando en los manjares aún no nacidos. Tomó un poco de agua sacra e hizo buche para calmar el océano interno. Con el último trago, repitió un ejercicio de vocalización que aprendió en un campamento episcopal en Baradero. Tragó el menjunje y casi en un acto declamatorio miró para arriba titubeante con los ojos, de un lado hacia el otro en tiempos cortos (él creía ingenuamente que el acto de elevar la cabeza le otorgaba cierta guturalidad actoral potente). Algo que, al verlo de afuera, resultaba cuasi risible. Pero la repetición tiene algo.
+    <p>Esos días de bolsas rebalsadas, los dedos marcados por
+el peso de las bolsas de tanta promoción en la segunda
+unidad; dibujada apenas tenue esa película acuosa en los
+ojos, pensando en los manjares aún no nacidos. Tomó un
+poco de agua sacra e hizo buche para calmar el océano
+interno. Con el último trago, repitió un ejercicio de
+vocalización que aprendió en un campamento episcopal
+en Baradero. Tragó el menjunje y casi en un acto
+declamatorio miró para arriba titubeante con los ojos, de
+un lado hacia el otro en tiempos cortos (él creía
+ingenuamente que el acto de elevar la cabeza le otorgaba
+cierta guturalidad actoral potente). Algo que, al verlo de
+afuera, resultaba cuasi risible. Pero la repetición tiene
+algo.</p>
 
-    <p style='max-width: 500px;'>- Si tan solo hubiera llegado a la cuadra de casa con todo el contenido de mis compras. Si en ese instante interminable, tu mano sostenedora junto a la mía robin, adjunta, plácida a tu tacto, hubiera sido fiel a la tarea–. </p>
+    <p style='max-width: 500px;'>- Si tan solo hubiera llegado a la cuadra de casa con
+todo el contenido de mis compras. Si en ese instante
+interminable, tu mano sostenedora junto a la mía
 
-    <p>Mientras rememoraba como las bolsas de p.v.c microgranulado se partían el amor ventilado en la vereda y se sacudían a plena vista de todos; mientras atestiguaba como todo lo demás caía rotundo como las rodillas en el reclinatorio… Nuestras manzanas y las plegarias. Una cohorte de frutas navegando por la vereda ajena, caían regias en parábola derechista (siempre las muy vagas, hacia allá, al este) y encima se alejan mucho cuando mueren, como vos y yo, lo hacen en síncopa, parece una molestia divina. Ajj.</p>
+robin, adjunta, plácida a tu tacto, hubiera sido fiel a la
+tarea–.</p>
 
-    <p>Huye para esconderse de sí mismo. Se persigna y trata de cambiar de pensamiento, entonces dispone el dedo meñique con la uña más crecida para rasquetear los pabilos de los candelabros que tan apretados de frío están, es así cómo debe usar técnicas nuevas de surco en la cera.  Hace carpita con la mano para que el fuego se quede. Se arremanga la sotana porque es un gesto que aprendió de su predecesor, se acomoda el algodón almidonado del traje heroico, para seguir con tradiciones que son fundamentales a esta altura. Hay que sostener, dice con seguridad de sprayette al espejo. Compra. Sigue con la farsa. Lord Cheselin para el pelo, así lo esparce y así lo pide en la farmacia, sal gruesa con tomillo de huerta para el baño de inmersión antes del rezo y la palangana verde pensión que recibe los cayos de los fieles, nunca son propios. Mentira, piensa. Detrás de bambalinas no pasa nadie. Las responsabilidades ajenas, como las palabras, mejor de otros que mías, sino el clona no funciona y me duele el alma que perdí una madrugada en plaza Irlanda. Pete. </p>
-    <p>Agarra el sobretodo protagónico donde antes podía dibujar el holograma y hoy solo pastizales secos. Se mira completo, está vestido de verde, en composé con toda la vajilla que lo acompañará a posteriori, en el continuo despliegue de fe que está por realizar. Se observa bien pausado en el cuadro. Se da cuenta por primera vez que el verde no es un color primario, que la esperanza está asociada a ese color y que no siente ni un gramo de ella. Algo en la habitación hace un ruido metálico, estridente, fuera de sitio. </p>
+    <p>Mientras rememoraba como las bolsas de p.v.c
+microgranulado se partían el amor ventilado en la vereda
+y se sacudían a plena vista de todos; mientras
+atestiguaba como todo lo demás caía rotundo como las
+rodillas en el reclinatorio… Nuestras manzanas y las
+plegarias. Una cohorte de frutas navegando por la vereda
+ajena, caían regias en parábola derechista (siempre las
+muy vagas, hacia allá, al este) y encima se alejan mucho
+cuando mueren, como vos y yo, lo hacen en síncopa,
+parece una molestia divina. Ajj.</p>
 
-    <p>Ya no hay reflejo, ya no hay universo que se dibuja en él, como en viaje necesario para la audiencia, ya no hay pantomima. No se puede salir croma desnudo, no es suficiente para divulgar casete, para llevarnos con él al cuento. Se perdió la luz o lo parejo o el diezmo o reflejo. Silencio. Antes era Dios cuando todo se veía a través de él. Ahora verde entero sin magia, puro yuyo. <br/>
-Amen. 
+    <p>Huye para esconderse de sí mismo. Se persigna y trata
+de cambiar de pensamiento, entonces dispone el dedo
+meñique con la uña más crecida para rasquetear los
+pabilos de los candelabros que tan apretados de frío
+están, es así cómo debe usar técnicas nuevas de surco
+en la cera. Hace carpita con la mano para que el fuego
+se quede. Se arremanga la sotana porque es un gesto
+que aprendió de su predecesor, se acomoda el algodón
+almidonado del traje heroico, para seguir con tradiciones
+que son fundamentales a esta altura. Hay que sostener,
+dice con seguridad de sprayette al espejo. Compra. Sigue
+
+con la farsa. Lord Cheselin para el pelo, así lo esparce y
+así lo pide en la farmacia, sal gruesa con tomillo de huerta
+para el baño de inmersión antes del rezo y la palangana
+verde pensión que recibe los cayos de los fieles, nunca
+son propios. Mentira, piensa. Detrás de bambalinas no
+pasa nadie. Las responsabilidades ajenas, como las
+palabras, mejor de otros que mías, sino el clona no
+funciona y me duele el alma que perdí una madrugada en
+plaza Irlanda. Pete.</p>
+
+<p>Agarra el sobretodo protagónico donde antes podía
+dibujar el holograma y hoy solo pastizales secos. Se mira
+completo, está vestido de verde, en composé con toda la
+vajilla que lo acompañará a posteriori, en el continuo
+despliegue de fe que está por realizar. Se observa bien
+pausado en el cuadro. Se da cuenta por primera vez que
+el verde no es un color primario, que la esperanza está
+asociada a ese color y que no siente ni un gramo de ella.
+Algo en la habitación hace un ruido metálico, estridente,
+fuera de sitio.</p>
+
+    <p>Ya no hay reflejo, ya no hay universo que se dibuja en él,
+como en viaje necesario para la audiencia, ya no hay
+pantomima. No se puede salir croma desnudo, no es
+suficiente para divulgar casete, para llevarnos con él al
+
+cuento. Se perdió la luz o lo parejo o el diezmo o reflejo.
+Silencio. Antes era Dios cuando todo se veía a través de
+él. Ahora verde entero sin magia, puro yuyo.<br/>
+Amen.
 </p>
 
 

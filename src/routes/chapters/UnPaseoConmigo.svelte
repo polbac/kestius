@@ -11,6 +11,7 @@
         position: relative;
         z-index: 9999;
         line-height: 50px;
+        text-align: justify;
     }
 
     
@@ -325,21 +326,7 @@ function tootleAudio() {
     </div>
 
     <h2>UN PASEO CONMIGO</h2>
-    <p>Un día estaba tan pero tan despabilada que salí de la calle con los bolsillos
-repletos, en puro simulacro necesario de lucidez, para así poder entrar
-impávida en las veredas favoritas de mi ciudad, esas que tienen forma de
-harmónica y papel glasé. Estaba caminando tan recta, tan pegada a la línea
-de la baldosa opaca pesimamente adoquinada, que pude evitar los baches
-de mi carrocería, tan línea estaba… por fortuna; que mi ropa parecía no
-dejarse acariciar por el aire que solfeaba sus costados. Trazos finos, caros.
-Fue bello entonces y llore y grite como quiero hacer siempre, como pasa en
-los montajes de mis asambleas mentales pero que nunca puedo compartir
-con los transeúntes. Me duele acá (miro a unx sin que me registre, sigo) el
-plexo, la tierra roja que se vuelve mi sangre cuando acumula labia que no
-puedo exfoliar. Por eso salgo. Entonces se arma la garganta del diablo en mi
-paso. Ése es el secreto, es así, lo juro, no fue un movimiento tectónico como
-dicen. ¿Como le explico esto a un geólogo? ¿Como le cuento de esta vuelta
-casera entre pantuflas en la vereda del barrio que me sale así?</p>
+    <p>Un día estaba tan pero tan despabilada que salí de la calle con los bolsillos repletos, en puro simulacro necesario de lucidez, para así poder entrar impávida en las veredas favoritas de mi ciudad, esas que tienen forma de armónica y papel glasé. Estaba caminando tan recta, tan pegada a la línea de la baldosa opaca pésimamente adoquinada, que pude evitar los baches de mi carrocería, tan línea estaba… por fortuna; que mi ropa parecía no dejarse acariciar por el aire que solfeaba sus costados. Trazos finos, caros. Fue bello entonces y lloré y grité como quiero hacer siempre, como pasa en los montajes de mis asambleas mentales pero que nunca puedo compartir con los transeúntes. Me duele acá (miro a unx sin que me registre, sigo) el plexo, la tierra roja que se vuelve mi sangre cuando acumula labia que no puedo exfoliar. Por eso salgo. Entonces se arma la garganta del diablo en mi paso. Ése es el secreto, es así, lo juro, no fue un movimiento tectónico como dicen. ¿Cómo le explico esto a un geólogo? ¿Cómo le cuento de esta vuelta casera entre pantuflas en la vereda del barrio que me sale así? </p>
 <center>
     <img src="assets/chapter-5/asset_4.png" width="250" id="asset-4"/>
     <br/>
@@ -350,34 +337,12 @@ casera entre pantuflas en la vereda del barrio que me sale así?</p>
     <br/>
     
 </center>
-<p>Me paro un momento… para espectar el ecosistema, eso solo. Un vistazo
-corto. A continuación. Un pato (vomito). Ahí al costado, oculto, ahí, en la
-alcantarilla, sino ¿Donde? Nadie me tira una silaba. Sigo parada, aunque
-usted no lo crea, ando, me mantengo adjunta recta distante del cielo que me
-aprieta contra el suelo. Una papa en la montaña, así me siento, de a
-montones, tubércula y apelmazada por los hectopascales de la presión
-atmosférica de ahí arriba. La conquista de mi existencia sufrida. Ay… En la
-montaña y en los agujeros que esquivo para mantenerme en pie. Y encima
-me ven con desprecio, ¿Que se piensan? ¿Que no los veo reírse de mí,
-intentando de hacer equilibrio mientras zafo de la embriaguez ni muy muy ni
-tan tan? No. Alto.
-¿Que? Si, las traje, puntual.
-Me meto la mano en la parte, ahí, en el bolsillo repleto de adentro del saco
-que sostiene la jauría de canicas que ladran mientras caen, mientras cinturean conmigo para mantenerse a salvo entre el piso que me espera para
-arder en caída y mi impaciencia caminante. Ruedan… Ay como se van lejos
-de mi... me marcan el camino de transacción con todo el resto que no
-soporto. Transamos en la calle, eso hacemos, los movimientos centrípetos,
-un quilombo en la vía pública. ¿Por qué? ¿Quien puede darse un beso y no
-caer? Con la fauna ajena digo. No servirse rendido al desmayo, ¿Quien
-puede ser tan lombriz fría de la tierra? Giramos, eso, giramos mientras
-viajamos por las pelotitas danzantes, viajamos de la mano como siempre
-quise hacer y no me animé porque opiné muchas cosas feas de mi; y así nos
-olvidamos de la dignidad berreta, de la patita levantada… Cosas chotas, que
-me hacen abandonar lo que quiero. Entonces rodé, besé y no padecí el
-recorrido, por primera vez en lo que va del tiempo que me acuerdo.
-Bravo. Y así llegamos cansados de sostener los cuerpos de toda esta
-asamblea; la mía sola… bah que digo, una fantasía cotidiana. ¿Qué cuesta?
-Es que apenas pude salir de casa hoy y volver entera.
+<p>Me paro un momento… para espectar el ecosistema, eso solo. Un vistazo corto. A continuación. Un pato (vomito). Ahí al costado, oculto, ahí, en la alcantarilla, sino ¿Donde? Nadie me tira una sílaba. Sigo parada, aunque usted no lo crea, ando, me mantengo adjunta recta distante del cielo que me aprieta contra el suelo. Una papa en la montaña, así me siento, de a montones, tubércula y apelmazada por los hectopascales de la presión atmosférica de ahí arriba. La conquista de mi existencia sufrida. Ay… En la montaña y en los agujeros que esquivo para mantenerme en pie. Y encima me ven con desprecio, ¿Qué piensan? ¿Que no los veo reírse de mí, intentando  hacer equilibrio mientras zafo de la embriaguez ni muy muy ni tan tan? No. Alto. 
+¿Qué? Si, las traje, puntual. <br/>
+Me meto la mano en la parte, ahí, en el bolsillo repleto de adentro del saco que sostiene la jauría de canicas que ladran mientras caen, mientras cinturean conmigo para mantenerse a salvo entre el piso que me espera para arder en caída y mi impaciencia caminante. Ruedan… Ay como se van lejos de mi… me marcan el camino de transacción con todo el resto que no soporto. Transamos en la calle, eso hacemos, los movimientos centrípetos, un quilombo en la vía pública. ¿Por qué? ¿Quien puede darse un beso y no caer? Con la
+ fauna ajena digo. No servirse rendido al desmayo, ¿Quien puede ser tan lombriz fría de la tierra? Giramos, eso, giramos mientras viajamos por las pelotitas danzantes, viajamos de la mano como siempre quise hacer y no me animé porque opiné muchas cosas feas de mi; y así nos olvidamos de la dignidad berreta, de la patita levantada… Cosas chotas, que me hacen abandonar lo que quiero. Entonces rodé, besé y no padecí el recorrido, por primera vez en lo que va del tiempo que me acuerdo. <br/>
+Bravo. Y así llegamos cansados de sostener los cuerpos de toda esta asamblea; la mía sola… bah que digo, una fantasía cotidiana. ¿Qué cuesta? Es que apenas pude salir de casa hoy y volver entera. 
+
 </p>
 
 <div class="grid">

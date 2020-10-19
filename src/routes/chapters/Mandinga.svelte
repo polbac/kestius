@@ -125,7 +125,7 @@
 
     color: black;
     font-size: 16px;
-
+    text-align: justify;
     
 }
 
@@ -364,7 +364,7 @@ const pauseAudio = index => {
         
         <div class='left'>
             <h4>EXT. AL PIE DE UN VALLE - DIA </h4>
-            <p>Reposo del tiempo. Así hacen de paisaje, una Llama a un lado que examina coquiando a un resto alejado.</p>
+            <p>Reposo del tiempo. Así hacen de paisaje, una Llama a un lado que examina coqueando a un resto alejado.</p>
         </div>
         
         <div class="center">
@@ -374,15 +374,15 @@ const pauseAudio = index => {
                 {:else}
                     <img on:click={() => pauseAudio(0)} class="b-audio" src="assets/chapter-1/pause.svg">
                 {/if}
-                VOZ (OFF) LLAMA
+                VOZ (OFF) LLAMA 
             </h4>
-            <p>Al levantar los ojos y ver la crina de la sombra ahumada, se me retoba la vista ante la falta de siesta, pues ni pa eso el descanso, que si me agacho me canso o pior, me acuesto y me frito mansa ante los rayos del sol. Arde tierra al horizonte, que ni el remanso de pena que llora la vida al norte de esta cordillera, aparece estanco entre las yuyeras ajenas... pero nunca ventajeras; ma‘si , ya no queda alameda que banque esta picazón. Ay de mi esta calor... Sangre sin cuerda se hace pájara en la vihuela, empanada esplotada mi mente frente a la roca calcinera, que ni el agua salada de una sirve, pa cumplirle a la sedienta sed que espera. Así voy fiera de monte, que a lo lejos veo perdido, un malón de los míos, haciendo rancho al rincón; bautizada Llama en la vida, pero baguala de corazón, por las riendas de esta canción, doy paso doble al camino, porque 
-    pa trote no me olvido, que me quedo sin pulmón. Voy arrimándome pampa medio carambola pero con facón, pa ver en que anda la yunta, que ahí mugen entreverados y con chucho, será que no queda mucho, pa que cante el carnero y se vaya el barullo, de este corralón. 
+            <p>Al levantar los ojos y ver la crina de la sombra ahumada, se me retoba la vista ante la falta de siesta, pues ni pa eso el descanso, que si me agacho me canso o pior, me acuesto y me frito mansa ante los rayos del sol. Arde tierra al horizonte, que ni el remanso de pena que llora la vida al norte de esta cordillera, aparece estanco entre las yuyeras ajenas... pero nunca ventajeras; ma‘si , ya no queda alameda que banque esta picazón. Ay de mi esta calor... Sangre sin cuerda se hace pájara en la vihuela, empanada esplotada mi mente frente a la roca calcinera, que ni el agua salada de una sirve, pa cumplirle a la sedienta sed que espera. Así voy fiera de monte, que a lo lejos veo perdido, un malón de los míos, haciendo rancho al rincón; bautizada Llama en la vida, pero baguala de corazón, por las riendas de esta canción, doy paso doble al camino, porque pa trote no me olvido, que me quedo sin pulmón. Voy arrimándome pampa medio carambola pero con facón, pa ver en que anda la yunta, que ahí mugen entreverados y con chucho, será que no queda mucho, pa que cante el carnero y se vaya el barullo, de este corralón.  
     </p>
         </div>
 
         <div class='left'>
-            <h4>EXT. AL PIE DE UN VALLE (APENAS DESPUÉS) - DIA </h4>
+            <h4>EXT. AL PIE DE UN VALLE (APENAS DESPUÉS) - DIA 
+</h4>
             {#if !audios[1]}
                     <img on:click={() => playAudio(1)} class="b-audio" src="assets/chapter-1/play-button.svg">
                 {:else}
@@ -391,8 +391,10 @@ const pauseAudio = index => {
                 <br/>
                 <br/>
             <p>La Llama es el personaje principal. La cámara subjetiva son los ojos, y así va dando paso hacia el tumulto, uno que se asoma apenas a lo lejos. La edad es tardía y junto con los pelajes crecidos, cualquier avance continuo se vuelve un desafío. La heroína está sufrida, subyugada por las desventuras del destino, la imagen misma segismundeana cocoliche de la zona, yerma de paciencia, detonada su carne a la espesura de un ecosistema ruin. No hay una voz ajena, 
-    sino una guía de onomatopeyas que se oyen al final del recorrido, hay bramidos apenas audibles que responden en acuerdo entre ellos. Confabulado con la escena está Gativideo, propagandero invisible todavía, pero veremos próximamente como devendrá en una reminiscencia animada noventosa y con él, los socios animales atentos del desierto norteño. </p>
-            <p>Ahora en un primerísimo primer plano, la Llama se detiene abruptamente. La imagen se interrumpe un momento para mostrar la bofetada calurosa en el rostro de nuestra individua. Ésta solo gira en cámara lenta, mientras su cabeza recibe lo entero del impacto, PAF!. Babea las gotas finales de saliva. Plano general. Avanza lerda, andrajosa de vientre y escuálida de pinta por el sendero univoco del huinca. Está nuestra protagonista en pleno acercamiento parsimonioso, removiendo con el cogote el viento ebullido que lanza el universo y su actualidad diurna de 13 horas 23 minutos. La cámara se acerca en un plano lateral para observar detenidamente la aventura. Los ojos apenas entreabiertos, reconocen finalmente los cuerpos amigos. Unos de su misma especie y un resto de fauna que parecen, a priori, cercanos de patria, pero lejanos de hocico. Continua el arrime a la muchedumbre, otras raquíticas parias de lumbre que amasijadas de media tarde, se quieren solo por ser parte de la misma trágica situación. Para entonces, nuestra entrañable protagonista en deceso, se ubica detrás del follaje animal tocayo y lejos de ir por lo necesario, hablo de agua y esos asuntos varios de vital composición; se absorta en epitafio de una presencia superior. </p>
+
+sino una guía de onomatopeyas que se oyen al final del recorrido, hay bramidos apenas audibles que responden en acuerdo entre ellos. Confabulado con la escena está Gativideo, propagandero invisible todavía, pero veremos próximamente como devendrá en una reminiscencia animada noventosa y con él, los socios animales atentos del desierto norteño. 
+</p>
+            <p>Ahora en un primerísimo primer plano, la Llama se detiene abruptamente. La imagen se interrumpe un momento para mostrar la bofetada calurosa en el rostro de nuestra individua. Ésta solo gira en cámara lenta, mientras su cabeza recibe lo entero del impacto, PAF!. Babea las gotas finales de saliva. Plano general. Avanza lerda, andrajosa de vientre y escuálida de pinta por el sendero univoco del huinca. Está nuestra protagonista en pleno acercamiento parsimonioso, removiendo con el cogote el viento ebullido que lanza el universo y su actualidad diurna de 13 horas 23 minutos. La cámara se acerca en un plano lateral para observar detenidamente la aventura. Los ojos apenas entreabiertos, reconocen finalmente los cuerpos amigos. Unos de su misma especie y un resto de fauna que parecen, a priori, cercanos de patria, pero lejanos de hocico. Continua el arrime a la muchedumbre, otras raquíticas parias de lumbre que amasijadas de media tarde, se quieren solo por ser parte de la misma trágica situación. Para entonces, nuestra entrañable protagonista en deceso, se ubica detrás del follaje animal tocayo y lejos de ir por lo necesario, hablo de agua y esos asuntos varios de vital composición; se absorta en epitafio de una presencia superior.</p>
         </div>
 
     </div>
@@ -401,16 +403,11 @@ const pauseAudio = index => {
 
 
     <div class="left">
-        <h4>LLAMA</h4>
-        <h4>¿QUÉ VEN?</h4>
-        <p>La dejamos ir a la susodicha un instante, para ubicarnos de
-lleno, en el centro de la acción. Contra plano contrapicado,
-feroz. En el centro de visión, mandinga o televisor, pero
-mas allá del rótulo, lo importante es que es actuante o
-actor y comerciante, de un lenguaje cautivador. La cámara
-rodea a las figuras que unidas se hacen toldo, un
-bálsamo esperanzador; sin soltar un diente del espectáculo
-que hace de vientre, para los sueños que son.
+        <h4><center>LLAMA</center></h4>
+        <h4><center>¿Que ven?</center></h4>
+        <p>La dejamos ir a la susodicha un instante, para ubicarnos de lleno, en el centro de la acción. Contra plano contrapicado, feroz. En el centro de visión, mandinga o televisor, pero mas allá del rótulo, lo importante es que es actuante o 
+actor y comerciante, de un lenguaje cautivador. La cámara rodea a las figuras que unidas se hacen toldo, un bálsamo esperanzador; sin soltar un diente del espectáculo que hace de vientre, para los sueños que son. 
+
 </p>
     </div>
 
@@ -424,23 +421,21 @@ que hace de vientre, para los sueños que son.
                 {/if}
                 VOZ (OFF) LLAMA
             </h4>
-        <p>Ahora se rompe un poco la rima,
-aunque si se tranca vuelve, porque
-es fanática del canto que repite
-el dolor. 
+        <p>Ahora se rompe un poco la rima, 
+aunque si se tranca vuelve, porque 
+es fanática del canto que repite 
+el dolor.
+
 </p>
     </div>
 
 
     <div class="left">
-        <h4>EXT. AL PIE DE UN VALLE - DIA (ATARDECER LERDO)</h4>
+        <h4>EXT. AL PIE DE UN VALLE - DIA (ATARDECER LERDO) 
+</h4>
         
-        <p>En un plano detalle, sale un VHS como un regurgite del
-aparato. Se corta el clima de cuajo (pandemonio de alaridos
-agrestes en dialecto invasivo). La Llama gana terreno desde
-el fondo y devuelve lo expulsado a las entrañas del micro
-infierno. Gativideo aparece ahora si en plano, dando inicio
-nuevamente a la fantasía. Alivio general.
+        <p>En un plano detalle, sale un VHS como un regurgite del aparato. Se corta el clima de cuajo (pandemonio de alaridos agrestes en dialecto invasivo). La Llama gana terreno desde el fondo y devuelve lo expulsado a las entrañas del micro infierno. Gativideo aparece ahora si en plano, dando inicio nuevamente a la fantasía. Alivio general. 
+
 </p>
     </div>
 </div>
@@ -458,40 +453,42 @@ nuevamente a la fantasía. Alivio general.
                     <img on:click={() => pauseAudio(3)} class="b-audio" src="assets/chapter-1/pause.svg">
                 {/if}
         VOZ (OFF) LLAMA</h4>
-        <p>Por eso no para de presentarse...</p>
+        <p><center>Por eso no para de presentarse... </center>
+</p>
     </div>
+    <div class="left">
+    Es correcto. Se dedica a mirar con mas esmero aún, será que hay mensaje venidero que se esconde en semejante caparazón. 
+</div>
 
 
     <div class="left">
-        <h4>EXT. CERCA DEL VALLE ANTERIOR TARDE(FLASHBACK)</h4>
+        <h4>EXT. CERCA DEL VALLE ANTERIOR TARDE(FLASHBACK) 
+</h4>
         
-        <p>Una vez en tiempos de sombra amable pariente carnero le dio
-pauta sabia...
+        <p>Una vez en tiempos de sombra amable pariente carnero le dio pauta sabia... 
+
 </p>
     </div>
 
      <div class="center small">
-        <h4>CARNERO SABIO</h4>
-        <p>El que no mira y pausa, nunca
-entiende lo que ve. Mira mejor,
-como si el agua de los deseos
-estuviera aquí para sobrevivir este
-momento.</p>
+        <h4>CARNERO SABIO 
+</h4>
+        <p>El que no mira y pausa, nunca 
+entiende lo que ve. Mira mejor, 
+como si el agua de los deseos 
+estuviera aquí para sobrevivir este 
+momento. 
+</p>
     </div>
 
 
     <div class="left">
-        <h4>EXT. AL PIE DEL VALLE - EPÍLOGO ERRÁTICO -- DIA</h4>
+        <h4>EXT. AL PIE DEL VALLE - EPÍLOGO ERRÁTICO - DIA 
+</h4>
         
-        <p>Entonces entiende, que la heroína de esta historia no es
-ella, sino el ave que corre y casi no se deja ver. Y el
-coyote persigue, fracasa en acme, intenta con yunques y
-alambres, pero no hay caso, pues el correcaminos que da
-paso, no deja huella al andar. Mandinga tenia razón.
-</p>
-<p>Y así se alejó la Llama, con templanza pero embalada,
-entendiendo que si no saliese así disparada, no habría
-ninguna escapada a esta apunada calor.</p>
+        <p>Entonces entiende, que la heroína de esta historia no es ella, sino el ave que corre y casi no se deja ver. Y el coyote persigue, fracasa en acme, intenta con yunques y alambres, pero no hay caso, pues el correcaminos que da paso, no deja huella al andar. Mandinga tenia razón. </p>
+<p>Y así se alejó la Llama, con templanza pero embalada, entendiendo que si no saliese así disparada, no habría ninguna escapada a esta apunada calor.</p>
+
     </div>
 
 </div>

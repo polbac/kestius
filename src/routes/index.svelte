@@ -218,6 +218,7 @@ a{
     top: 20px;
     left: 20px;
     cursor: pointer;
+    z-index: 9999;
 }
 .branding{
     position: fixed;
@@ -330,7 +331,7 @@ a{
         <a href='chapters/LaMona' class='item item-vertical' title="LA MONA">
          <img src="assets/chapter-1/mona-mandibula.png" width="300"/>
          </a>
-        <a href='chapters/Lucifer' class='item' title="PEPENAR PASTO">
+        <a href='chapters/PepenarPasto' class='item' title="PEPENAR PASTO">
         <img src="assets/chapter-2/asset2.png"  width="150" class='normal'/>
         <img src="assets/chapter-2/asset1.png"  width="210" class='hover'/>
         </a>
@@ -354,16 +355,59 @@ a{
     {#if credits}
         <div class="credits-section" on:click={hideCredits}>
             <div class="contain">
-                <h2>creditos</h2>
-                <p>Ilustraciones<br/>   Nana Schlez</p>
-                <p>Desarrollo<br/>polbac</p>
-                <p>Música<br/>Heidi Giel // La Mona - h. <br/>Lucas Bunchi // Pepenar pasto - Mandinga Modorra <br/>Julian Kritzer // Slogan  </p>
-                <p>Producción, mezcla y master<br/>  // h. // - Pablo Bursztyn</p>
-                <p>Intérpretes<br/>Julian Eduardo Duffy // Idolo <br/>Augusto Chiappe // Un paseo conmigo <br/>Silvina Chivi Garcia // Mandinga Modorra<br/>Agustin Suarez - Heidi Giel // h.</p>
-                <p>Edición de video<br/> // h. - Heidi Giel - Agustin Suarez</p>
-                <p>Edición de sonido<br/>Ídolo // Un paseo conmigo // Mandinga Modorra // - Gonzalo Palmieri</p>
-                <p>Colaboración de texto<br/>La Mona - Slogan // - Martin Muller</p>
-                <p>Asistencia motorizada<br/>Fabio Sanchez</p>
+                <h2>créditos</h2>
+
+                <p>Ilustraciones - Nana Schlez // @nanaschlez // </p>
+
+<p>Programación - Pablo Bacchetta // @elpolbac //</p>
+
+<p>Asistencia motorizada - Fabio Sanchez</p>
+
+<p>LA MONA</p>
+
+<p>Música - Heidi Giel // @heidigiel //</p>
+<p>Colaboración de texto - Martin Müller //</p>
+
+<p>PEPENAR PASTO</p>
+
+<p>Música - Lucas Bunchi // @la.buncha // </p>
+
+
+<p>IDOLO</p>
+
+<p>Intérprete - Julian Duffy // @jvliandvffy //</p>
+<p>Edición de sonido - Gonzalo Palmieri // @gonzalopalmieri //</p>
+
+<p>UN PASEO CONMIGO</p>
+
+<p>Intérprete - Augusto Chiappe // @colochiappe //</p>
+<p>Edición de sonido - Gonzalo Palmieri // @gonzalopalmieri //</p>
+
+
+<p>MANDINGA MODORRA</p>
+
+<p>Música - Lucas Bunchi // @la.buncha // </p>
+<p>Intérprete - Silvina Chivi García // @chivigarcia //</p>
+<p>Edición de sonido - Gonzalo Palmieri // @gonzalopalmieri //</p>
+
+
+<p>SLOGAN</p>
+
+<p>Música - Julian Kritzer // @juliankritzer // </p>
+<p>Colaboración de texto - Martin Müller //</p>
+
+
+<p>h.</p>
+
+<p>Música - Heidi Giel // @heidigiel //</p>
+<p>Intérpretes - Heidi Giel - Agustin Suarez // @heidigiel - @agustinsuarez.jpg //</p>
+<p>Producción, mezcla y master - Pablo Bursztyn // @bursz //</p>
+<p>Grabación de piano - Cachito Mix // @cachitomixstudio //</p>
+<p>Edición de video - Heidi Giel - Agustin Suarez // @heidigiel - @agustinsuarez.jpg //</p>
+
+
+<p>KESTIUS: antología digital sobre los sucesos convivientes hasta el día de la fecha. Los de después, están por verse. </p>
+<p><p>mail: kestius.kj@gmail.com</p>
             </div>
         </div>
     {/if}

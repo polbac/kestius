@@ -145,7 +145,7 @@ function tootleAudio() {
     #p1,#p2{
         display: none;
         position: absolute; 
-        top: 20%;
+        top: 30vh;
         width: 80%;
         left: 6%;
         color: white;
@@ -169,11 +169,7 @@ function tootleAudio() {
 
     #p2{
         transform: rotate(5deg);    
-        top: 80%;
-        background: yellow;
-        color: black;
-        background: black;
-        color: yellow;
+        top: 90vh;;
         
     }
 

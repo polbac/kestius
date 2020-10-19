@@ -410,6 +410,9 @@ h2{margin-top: 90px;}
         left: 2px;
 }
 
+.texto{
+    text-align: justify;
+}
 #skip-video{
     position: fixed;
     bottom: 20px;
