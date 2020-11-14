@@ -276,6 +276,13 @@ a{
 
 }
 
+.credits-section .contain a{
+    display: inline;
+    color: blue;
+    padding: 0;
+    border-bottom: 1px solid gray;
+}
+
 .kestious{
     position: fixed;
     bottom: 20px;
@@ -304,6 +311,13 @@ a{
     right: 21px;
     text-align: right;
 
+}
+
+.kestious-section .contain a{
+    display: inline;
+    color: red;
+    padding: 0;
+    border-bottom: 1px solid gray;
 }
 @media (max-width: 640px){
     .credits-section .contain{
@@ -424,57 +438,54 @@ a{
             <div class="contain">
                 <h2>créditos</h2>
 
-                <p>Ilustraciones - Nana Schlez // @nanaschlez // </p>
+                <p>Ilustraciones - Nana Schlez // <a href='https://www.instagram.com/nanaschlez' target="_blank">@nanaschlez</a> // </p>
 
-<p>Programación - Pablo Bacchetta // @elpolbac //</p>
+<p>Programación - Pablo Bacchetta // <a href='https://www.instagram.com/elpolbac' target="_blank">@elpolbac</a> //</p>
 
 <p>Asistencia motorizada - Fabio Sanchez</p>
 
 <p>LA MONA</p>
 
-<p>Música - Heidi Giel // @heidigiel //</p>
+<p>Música - Heidi Giel // <a href='https://www.instagram.com/heidigiel' target="_blank">@heidigiel</a> //</p>
 <p>Colaboración de texto - Martin Müller //</p>
 
 <p>PEPENAR PASTO</p>
 
-<p>Música - Lucas Bunchi // @la.buncha // </p>
+<p>Música - Lucas Bunchi // <a href='https://www.instagram.com/la.buncha' target="_blank">@la.buncha</a> // </p>
 
 
 <p>IDOLO</p>
 
-<p>Intérprete - Julian Duffy // @jvliandvffy //</p>
-<p>Edición de sonido - Gonzalo Palmieri // @gonzalopalmieri //</p>
+<p>Intérprete - Julian Duffy // <a href='https://www.instagram.com/jvliandvffy' target="_blank">@jvliandvffy</a> //</p>
+<p>Edición de sonido - Gonzalo Palmieri // <a href='https://www.instagram.com/gonzalopalmieri' target="_blank">@gonzalopalmieri</a> //</p>
 
 <p>UN PASEO CONMIGO</p>
 
-<p>Intérprete - Augusto Chiappe // @colochiappe //</p>
-<p>Edición de sonido - Gonzalo Palmieri // @gonzalopalmieri //</p>
+<p>Intérprete - Augusto Chiappe // <a href='https://www.instagram.com/colochiappe' target="_blank">@colochiappe</a> //</p>
+<p>Edición de sonido - Gonzalo Palmieri // <a href='https://www.instagram.com/gonzalopalmieri' target="_blank">@gonzalopalmieri</a> //</p>
 
 
 <p>MANDINGA MODORRA</p>
 
-<p>Música - Lucas Bunchi // @la.buncha // </p>
-<p>Intérprete - Silvina Chivi García // @chivigarcia //</p>
-<p>Edición de sonido - Gonzalo Palmieri // @gonzalopalmieri //</p>
+<p>Música - Lucas Bunchi // <a href='https://www.instagram.com/la.buncha' target="_blank">@la.buncha</a> // </p>
+<p>Intérprete - Silvina Chivi García // <a href='https://www.instagram.com/chivigarcia' target="_blank">@chivigarcia</a> //</p>
+<p>Edición de sonido - Gonzalo Palmieri // <a href='https://www.instagram.com/gonzalopalmieri' target="_blank">@gonzalopalmieri</a> //</p>
 
 
 <p>SLOGAN</p>
 
-<p>Música - Julian Kritzer // @juliankritzer // </p>
+<p>Música - Julian Kritzer // <a href='https://www.instagram.com/juliankritzer' target="_blank">@juliankritzer</a> // </p>
 <p>Colaboración de texto - Martin Müller //</p>
 
 
 <p>h.</p>
 
-<p>Música - Heidi Giel // @heidigiel //</p>
-<p>Intérpretes - Heidi Giel - Agustin Suarez // @heidigiel - @agustinsuarez.jpg //</p>
-<p>Producción, mezcla y master - Pablo Bursztyn // @bursz //</p>
-<p>Grabación de piano - Cachito Mix // @cachitomixstudio //</p>
-<p>Edición de video - Heidi Giel - Agustin Suarez // @heidigiel - @agustinsuarez.jpg //</p>
+<p>Música - Heidi Giel // <a href='https://www.instagram.com/heidigiel' target="_blank">@heidigiel</a> //</p>
+<p>Intérpretes - Heidi Giel - Agustin Suarez // <a href='https://www.instagram.com/heidigiel' target="_blank">@heidigiel</a> - <a href='https://www.instagram.com/agustinsuarez' target="_blank">@agustinsuarez.jpg</a> //</p>
+<p>Producción, mezcla y master - Pablo Bursztyn // <a href='https://www.instagram.com/gonzalopalmieri' target="_blank">@bursz</a> //</p>
+<p>Grabación de piano - Cachito Mix // <a href='https://www.instagram.com/gonzalopalmieri' target="_blank">@cachitomixstudio</a> //</p>
+<p>Edición de video - Heidi Giel - Agustin Suarez // <a href='https://www.instagram.com/heidigiel' target="_blank">@heidigiel</a> - <a href='https://www.instagram.com/agustinsuarez' target="_blank">@agustinsuarez.jpg</a> //</p>
 
-
-<p>KESTIUS: antología digital sobre los sucesos convivientes hasta el día de la fecha. Los de después, están por verse. </p>
-<p><p>mail: kestius.kj@gmail.com</p>
             </div>
         </div>
     {/if}
