@@ -3,6 +3,7 @@ import { onDestroy, onMount } from 'svelte'
 import { universalDoc as d } from '../util/document'
 
 let credits = false
+let kestious = false
 let items = []
 let itemsVector = []
 
@@ -17,6 +18,8 @@ let interval
 onDestroy(() => {
     clearInterval(interval)
     d.removeEventListener(type, () => {}, true)
+    d.removeEventListener('onkeydown', () => {}, true)
+    d.removeEventListener('up', () => {}, true)
     isInHome = false
 })
 
@@ -66,30 +69,26 @@ onMount(() => {
         }
     })
 
-    d.addEventListener(type, e => {
+    const move = (vecX) => {
         if (!isInHome) return
-
-        e.preventDefault();
-        
-        const wheel = e.deltaX ? -e.deltaX : e.wheelDelta/40
 
         pos.forEach((item, index) => {
             pos[index] = {
-                x: pos[index].x + wheel,
+                x: pos[index].x + vecX,
                 y: pos[index].y
             }
         })
 
-        if (wheel > 0) {
+        if (vecX > 0) {
             DIRECTION = 1
         }
 
-        if (wheel < 0) {
+        if (vecX < 0) {
             DIRECTION = -1
         }
 
         itemsVector = itemsVector.map(item => {
-            item.x = item.x + wheel
+            item.x = item.x + vecX
             return item
         })
 
@@ -97,8 +96,30 @@ onMount(() => {
         assertRestartRight()
 
         render()
+    }
+
+    d.addEventListener(type, e => {
+        const wheel = e.deltaX ? -e.deltaX : e.wheelDelta/40
+        e.preventDefault();
+        move(wheel)
     }, true);
-    
+
+
+    d.onkeydown = checkKey;
+    d.onkeyup = () => { DIRECTION = 0 }
+
+    function checkKey(e) {
+        e = e || window.event;
+
+        if (e.keyCode == '37') {
+            move(1)
+        }
+        if (e.keyCode == '39') {
+            move(-1)
+        }
+        
+    }
+        
 })
 
 
@@ -157,6 +178,14 @@ function hideCredits(){
     credits = false;
 }
 
+function showKesitous(){
+    kestious = true;
+}
+
+function hideKesitous(){
+    kestious = false;
+}
+
 
 let pos = []
 
@@ -213,6 +242,13 @@ a{
     margin: 10px;
     
 }
+
+.branding{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+}
 .credits{
     position: fixed;
     top: 20px;
@@ -220,13 +256,6 @@ a{
     cursor: pointer;
     z-index: 9999;
 }
-.branding{
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    cursor: pointer;
-}
-
 .credits-section{
     position: fixed;
     overflow-y: auto;
@@ -244,6 +273,36 @@ a{
     
     padding-top: 50px;
     font-family: arial;
+
+}
+
+.kestious{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 9999;
+}
+.kestious-section{
+    position: fixed;
+    overflow-y: auto;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    right: 0;
+}
+
+.kestious-section .contain{
+       font-size: 26px;
+    max-width: 440px;
+    color: red;
+    margin-left: 200px;
+    padding-top: 50px;
+    font-family: arial;
+    position: fixed;
+    bottom: 40px;
+    right: 21px;
+    text-align: right;
 
 }
 @media (max-width: 640px){
@@ -325,7 +384,7 @@ a{
 <div class="home">
     <style>html,body{overflow:hidden;}</style>
     <div class="article-title" id="title">TITULO</div>
-    <div class="branding">KESTIUS®</div>
+    <div class="branding" on:click={showKesitous}>KESTIUS®</div>
     <div class="credits" on:click={showCredits}>CREDITOS</div>
     <div class="scroll">
         <a href='chapters/LaMona' class='item item-vertical' title="LA MONA">
@@ -344,11 +403,19 @@ a{
         </a>
         
         <a href='chapters/Slogan' class='item item-vertical' title="SLOGAN">
-        <img src="assets/chapter-6/8.png"  width="200" />
+        <img src="assets/chapter-6/8.png"  width="200" class='normal'/>
+        
+        <img src="assets/chapter-6/12.png"  width="200" class='hover'/>
         </a>
         <a href='chapters/Mandinga' class='item' title="MANDINGA MADORRA">
             <img src="paper.png"  width="300" class='normal' />
             <img src="paper_hover.png"  width="300" class='hover'/>
+        </a>
+
+        <a href='chapters/h' class='item' title="h." >
+            <img src="noise.gif" class='hover'  style='    position: absolute;top: 110px;left: 20px;width: 250px;height: 160px;' width="300"/>
+            <img src="tv.png" style='position: relative'  width="300"/>
+            
         </a>
     </div>
 
@@ -408,6 +475,16 @@ a{
 
 <p>KESTIUS: antología digital sobre los sucesos convivientes hasta el día de la fecha. Los de después, están por verse. </p>
 <p><p>mail: kestius.kj@gmail.com</p>
+            </div>
+        </div>
+    {/if}
+
+    {#if kestious}
+        <div class="kestious-section" on:click={hideKesitous}>
+            <div class="contain">
+
+            <p>KESTIUS: antología digital sobre los sucesos convivientes hasta el día de la fecha. Los de después, están por verse. </p>
+            <p><p>mail: kestius.kj@gmail.com</p>
             </div>
         </div>
     {/if}

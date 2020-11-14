@@ -272,7 +272,7 @@ h2{margin-top: 90px;}
     pointer-events: none;
 }
 .button-audio{
-    width: 30px;
+    width: 45px;
     position: fixed;
     top: 20px;
     right: 20px;

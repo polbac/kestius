@@ -85,7 +85,7 @@
 
 
 .button-audio{
-    width: 30px;
+    width: 45px;
     position: fixed;
     top: 20px;
     right: 20px;

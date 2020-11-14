@@ -3,7 +3,7 @@
         overflow: auto;
     }
     .chapter-2{
-        font-family: 'my_underwoodregular';
+        font-family: 'Traveling _Typewriter';
         color: #191621;
         font-size: 30px;
         background: #f1f0ca;
@@ -148,7 +148,7 @@
   
 }
 .button-audio{
-    width: 30px;
+    width: 45px;
     position: fixed;
     top: 20px;
     right: 20px;
@@ -362,7 +362,7 @@ let mouseEnter = false
 setInterval(() => mouseEnter = !mouseEnter, 3000)
 </script>
 
-<link href="assets/chapter-2/font/stylesheet.css" rel="stylesheet">
+
 
 <div id="jarvis">
     <a  href='/'><img width="50" height="50" src="assets/chapter-2/ja.png" alt=""></a>
@@ -504,3 +504,5 @@ Amen.
 
 
 </section>
+
+<link rel="stylesheet" href="/travelling-typewriter/stylesheet.css" />

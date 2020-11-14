@@ -381,7 +381,7 @@ const pauseAudio = index => {
         </div>
 
         <div class='left'>
-            <h4>EXT. AL PIE DE UN VALLE (APENAS DESPUÉS) - DIA 
+            <h4>EXT. AL PIE DE UN VALLE APENAS DESPUÉS - DIA 
 </h4>
             {#if !audios[1]}
                     <img on:click={() => playAudio(1)} class="b-audio" src="assets/chapter-1/play-button.svg">
@@ -431,7 +431,7 @@ el dolor.
 
 
     <div class="left">
-        <h4>EXT. AL PIE DE UN VALLE - DIA (ATARDECER LERDO) 
+        <h4>EXT. AL PIE DE UN VALLE - ATARDECER LERDO
 </h4>
         
         <p>En un plano detalle, sale un VHS como un regurgite del aparato. Se corta el clima de cuajo (pandemonio de alaridos agrestes en dialecto invasivo). La Llama gana terreno desde el fondo y devuelve lo expulsado a las entrañas del micro infierno. Gativideo aparece ahora si en plano, dando inicio nuevamente a la fantasía. Alivio general. 
@@ -462,7 +462,7 @@ el dolor.
 
 
     <div class="left">
-        <h4>EXT. CERCA DEL VALLE ANTERIOR TARDE(FLASHBACK) 
+        <h4>EXT. CERCA DEL VALLE ANTERIOR TARDE FLASHBACK
 </h4>
         
         <p>Una vez en tiempos de sombra amable pariente carnero le dio pauta sabia... 
