@@ -479,7 +479,6 @@ h2{margin-top: 90px;}
     <div id="imagenes">
     
     <img src="assets/chapter-6/2.png" width="250" id="asset-2" class="asset">
-    <img src="assets/chapter-6/3.png" width="250" id="asset-3" class="asset" z="-2"/>
     <img src="assets/chapter-6/4.png" width="250" id="asset-4" class="asset"/>
     <img src="assets/chapter-6/5.png" width="250" id="asset-5" class="asset"/>
     <img src="assets/chapter-6/6.png" width="250" id="asset-6" class="asset floating"/>

@@ -462,7 +462,7 @@ el dolor.
 
 
     <div class="left">
-        <h4>EXT. CERCA DEL VALLE ANTERIOR TARDE FLASHBACK
+        <h4>EXT. CERCA DEL VALLE ANTERIOR - TARDE FLASHBACK
 </h4>
         
         <p>Una vez en tiempos de sombra amable pariente carnero le dio pauta sabia... 

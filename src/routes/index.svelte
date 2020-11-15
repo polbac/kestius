@@ -309,7 +309,7 @@ a{
     position: fixed;
     bottom: 40px;
     right: 21px;
-    text-align: right;
+    text-align: justify;
 
 }
 
@@ -494,8 +494,8 @@ a{
         <div class="kestious-section" on:click={hideKesitous}>
             <div class="contain">
 
-            <p>KESTIUS: antología digital sobre los sucesos convivientes hasta el día de la fecha. Los de después, están por verse. </p>
-            <p><p>mail: kestius.kj@gmail.com</p>
+            <p>KESTIUS - antología digital sobre los sucesos convivientes hasta el día de la fecha. Los de después, están por verse. </p>
+            <p><p>mail: <a href="mailto:kestius.kj@gmail.com">kestius.kj@gmail.com</a></p>
             </div>
         </div>
     {/if}

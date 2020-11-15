@@ -131,6 +131,7 @@ function tootleAudio() {
 <style>
     :global(:root){
         overflow: auto;
+        background: #040236;
     }
 #play-toggle{cursor: pointer;}
 #jarvis{
@@ -175,7 +176,7 @@ function tootleAudio() {
     #p1{
         font-family: 'Roboto';
         
-        line-height: 20px;
+        line-height: 25px;
     }
 
     #p2{
@@ -194,7 +195,7 @@ function tootleAudio() {
 
     }
     html,body,section{
-        background: black;
+        background: #040236;
         height: 100vh;
     }
     
