@@ -1,4 +1,7 @@
 <style>
+    .p5Canvas{
+        display: none
+    }
     .chapter{
         font-family: 'Fauna One';
         color: #5a3d3d;

@@ -1,4 +1,7 @@
 <style>
+    .p5Canvas{
+        display: none
+    }
     :global(:root){
         overflow: auto;
     }
@@ -506,3 +509,4 @@ Amen.
 </section>
 
 <link rel="stylesheet" href="/travelling-typewriter/stylesheet.css" />
+

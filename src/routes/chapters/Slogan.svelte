@@ -174,6 +174,9 @@ function toggle(){
 </script>
 
 <style>
+    .p5Canvas{
+        display: none
+    }
     :global(:root){
         overflow: auto;
     }

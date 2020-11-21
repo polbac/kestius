@@ -421,7 +421,7 @@ a{
         
         <img src="assets/chapter-6/12.png"  width="200" class='hover'/>
         </a>
-        <a href='chapters/Mandinga' class='item' title="MANDINGA MADORRA">
+        <a href='chapters/Mandinga' class='item' title="MANDINGA MODORRA">
             <img src="paper.png"  width="300" class='normal' />
             <img src="paper_hover.png"  width="300" class='hover'/>
         </a>
@@ -443,6 +443,7 @@ a{
 <p>Programación - Pablo Bacchetta // <a href='https://www.instagram.com/elpolbac' target="_blank">@elpolbac</a> //</p>
 
 <p>Asistencia motorizada - Fabio Sanchez</p>
+<p>Asistencia técnica - Violeta Suarez</p>
 
 <p>LA MONA</p>
 
@@ -500,13 +501,6 @@ a{
         </div>
     {/if}
     <script src="https://cdn.jsdelivr.net/npm/p5@1.1.9/lib/p5.min.js"></script>
-    <style>.p5Canvas{
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100% !important;
-        height: 100% !important;
-        pointer-events: none;
-    }</style>
+    
 </div>
 

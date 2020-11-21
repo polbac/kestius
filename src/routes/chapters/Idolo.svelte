@@ -129,6 +129,9 @@ function tootleAudio() {
 </script>
 
 <style>
+    .p5Canvas{
+        display: none
+    }
     :global(:root){
         overflow: auto;
         background: #040236;
@@ -276,3 +279,5 @@ Cuando iba a la colonia juntaba estas cancionetas, las mantenía apelmazadas en 
 </div>
 </div>
 </section>
+
+
